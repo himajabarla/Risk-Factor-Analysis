@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.0821.2225                               -->
+<workbook original-version='18.1' source-build='2019.3.0 (20193.19.0821.2225)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='risky_driver_geos (project.risky_driver_geos) (project)' inline='true' name='federated.084zm3e0ekdnbd16fia3h0lxz6bn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='10.182.131.215' name='hadoophive.146tu1i0nwlofc165andq0jb8bi5'>
+            <connection authentication='yes' authentication-type='3' class='hadoophive' connection-type='2' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='project' server='10.182.131.215' sslcert='' sslmode='' transport-type='0' username='training'>
+              <connection-customization class='hadoophive' enabled='false' version='18.1'>
+                <vendor name='hadoophive' />
+                <driver name='hadoophive' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='yes' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='yes' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='yes' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Driverid' datatype='string' name='[driverid]' role='dimension' type='nominal' />
+      <column caption='Overall Mpg' datatype='real' name='[overall_mpg]' role='measure' type='quantitative' />
+      <column caption='Scaled Risk' datatype='real' name='[scaled_risk]' role='measure' type='quantitative' />
+      <column caption='Truckid' datatype='string' name='[truckid]' role='dimension' type='nominal' />
+      <drill-paths>
+        <drill-path name='state, city' />
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.490284' measure-ordering='alphabetic' measure-percentage='0.509716' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1.450276255607605' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5A2C85D7-C8F7-40A0-ABF6-AD04DA1ED619}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='risky_driver_geos (project.risky_driver_geos) (project)' name='federated.084zm3e0ekdnbd16fia3h0lxz6bn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.084zm3e0ekdnbd16fia3h0lxz6bn'>
+            <column-instance column='[overall_mpg]' derivation='Avg' name='[avg:overall_mpg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[truckid]' derivation='None' name='[none:truckid:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Mpg' datatype='real' name='[overall_mpg]' role='measure' type='quantitative' />
+            <column caption='Truckid' datatype='string' name='[truckid]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[avg:overall_mpg:qk]</rows>
+        <cols>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:truckid:nk]</cols>
+      </table>
+      <simple-id uuid='{1E6EB949-9F4A-42E6-A1AF-9AF69C318CAE}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{95FAD02F-44AF-47EC-B026-C4683675E29E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='3' name='Sheet 1' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='21' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9F500F37-0EB4-4ABD-AE79-A63D1C816B55}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:driverid:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5D1236AB-9579-4FB5-874A-3E83B3484990}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:truckid:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6BFBB92A-4B42-4CA1-ACD1-2F95906A2839}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:city (lowmpg_truck_geos):nk]</field>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:state:nk]</field>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:truckid (lowmpg_truck_geos):nk]</field>
+            <field>[federated.084zm3e0ekdnbd16fia3h0lxz6bn].[none:truckid:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8FB90F83-45AD-4946-8461-DF98E43C4026}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{C621F270-D657-41AD-922B-85566B6D6E31}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
